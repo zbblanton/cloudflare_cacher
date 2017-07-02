@@ -1,7 +1,7 @@
-# Cloudflare Cacher (Written in Python)
+# Cloudflare Cacher (Written in Go)
 
 ## Description
-A script that can run as a cron job to keep your website cached in cloudflare. This script will scan the specified folder and cache anything new or older than X amount of days.  
+A program that keeps your website cached in cloudflare. This program will scan the specified folder and cache anything new or older than X amount of days.  
 
 ## Requirements
 * Cloudflare account
@@ -9,13 +9,3 @@ A script that can run as a cron job to keep your website cached in cloudflare. T
 
 ## Example
 Will add example soon...
-
-Linux:
-```
-crontab -e
-```
-
-Then add something like this to the crontab:
-```
-* * * * * python cloudflare_cacher.py
-```
